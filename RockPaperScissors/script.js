@@ -42,28 +42,29 @@ function getResult(){
   if(userChoice == compChoice){
    result = "Draw"
   }
-
-  if(userChoice=="Scissor"){
-      if(compChoice == "Rock") result="You Lose!"
-      else {
-        result="You Win!"
-        score ++;
-      }
-  }
-   
-  if(userChoice=="Paper"){
-      if(compChoice == "Scissor") result="You Lose!"
-      else {
-        result="You Win!"
-        score ++;
-      }
-  }
-  if(userChoice=="Rock"){
-      if(compChoice == "Paper") result="You Lose!"
-      else {
-        result="You Win!"
-        score ++;
-      }
+  else{
+    if(userChoice=="Scissor"){
+        if(compChoice == "Rock") result="You Lose!"
+        else {
+          result="You Win!"
+          score ++;
+        }
+    }
+    
+    if(userChoice=="Paper"){
+        if(compChoice == "Scissor") result="You Lose!"
+        else {
+          result="You Win!"
+          score ++;
+        }
+    }
+    if(userChoice=="Rock"){
+        if(compChoice == "Paper") result="You Lose!"
+        else {
+          result="You Win!"
+          score ++;
+        }
+    }
   }
   resultDisplay.innerHTML = result
   scoreDisplay.innerHTML = score
