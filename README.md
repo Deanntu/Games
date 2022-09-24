@@ -1,3 +1,3 @@
 # JavaScript Practices with Games
-Game 01 - Rock Paper Scissors
-Game 02 - TBA
+<p>Game 01 - Rock Paper Scissors</p>
+<p>Game 02 - TBA</p>
